@@ -47,16 +47,6 @@ Instruções de uso:
 </tr>
 </tbody>
 </table>
-<br />
-<table style="border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;" width="100%" cellpadding="0">
-<tbody>
-<tr>
-<td style="background-color: #ccffcc;" width="620">
-<p style="padding: 5px 5px 5px;"><strong>Solicitação</strong>: ##ticket.title## <br />##ticket.content##</p>
-</td>
-</tr>
-</tbody>
-</table>
 <br />##IFticket.storestatus=5##
 <table style="border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;" width="100%" cellpadding="0">
 <tbody>
@@ -76,16 +66,10 @@ Instruções de uso:
 <tbody>
 <tr>
 <td colspan="2">
-<p style="padding: 5px 5px 5px;"><strong>Acompanhamento</strong>: [##followup.date##] - ##followup.description##</p>
+<p style="padding: 5px 5px 5px;"><strong>Acompanhamento</strong>: <br />
+[##followup.author##] em ##followup.date##<br />
+##followup.description##</p>
 </td>
-</tr>
-<tr style="border: 1px solid #f4f4f4; border-collapse: collapse;">
-<td width="168"><strong>##lang.followup.isprivate## :</strong></td>
-<td align="left" width="452">##followup.isprivate##</td>
-</tr>
-<tr style="border: 1px solid #f4f4f4; border-collapse: collapse;">
-<td width="168"><strong>##lang.followup.author## :</strong></td>
-<td align="left" width="452">##followup.author##</td>
 </tr>
 </tbody>
 </table>
@@ -94,30 +78,24 @@ Instruções de uso:
 <tbody>
 <tr>
 <td colspan="4" bgcolor="">
-<p style="padding: 5px 5px 5px;"><strong>Tarefa</strong>: [##task.date##] - ##task.description##</p>
+<p style="padding: 5px 5px 5px;"><strong>Tarefa</strong>:<br />
+[##task.author##] em ##task.date## <br />
+##task.description##</p>
 </td>
-</tr>
-<tr style="border: 1px solid #f4f4f4; border-collapse: collapse;">
-<td width="145"><strong>##lang.task.isprivate## :</strong></td>
-<td align="left" width="115">##task.isprivate##</td>
-<td align="left" width="141"><strong>##lang.task.time## :</strong></td>
-<td align="left" width="217">##task.time##</td>
-</tr>
-<tr style="border: 1px solid #f4f4f4; border-collapse: collapse;">
-<td width="145"><strong>##lang.task.author## :</strong></td>
-<td align="left" width="115">##task.author##</td>
-<td align="left" width="141"><strong> ##lang.task.category## :</strong></td>
-<td align="left" width="217">##task.category##</td>
-</tr>
-<tr style="border: 1px solid #f4f4f4; border-collapse: collapse;">
-<td width="145"> </td>
-<td align="center" width="115"> </td>
-<td align="center" width="141"> </td>
-<td align="center" width="217"> </td>
 </tr>
 </tbody>
 </table>
-<br />##ENDFOREACHtasks##</td>
+<br />##ENDFOREACHtasks##
+<table style="border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;" width="100%" cellpadding="0">
+<tbody>
+<tr>
+<td style="background-color: #ccffcc;" width="620">
+<p style="padding: 5px 5px 5px;"><strong>Solicitação</strong>: ##ticket.title## <br />##ticket.content##</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
 </tr>
 </tbody>
 </table>
