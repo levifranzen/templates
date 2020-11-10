@@ -37,12 +37,12 @@ Instruções de uso:
 <table style="background-color: #efefef; border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px; height: 34px; width: 100%;" width="100%" cellpadding="0">
 <tbody>
 <tr style="border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;">
-<td style="height: 34px;" rowspan="2" width="448"><img src="http://urldoglpi/logo.png" alt="logomarca" width="190" height="68" /></td>
-<td style="height: 17px;" width="53"><strong>N°: </strong> </td>
+<td style="height: 34px;" rowspan="2" width="448"><img src="http://midias.grupofw.com.br/images/logo.png" alt="logomarca" width="190" height="68" /></td>
+<td style="height: 17px;" width="53"><strong>N°: </strong></td>
 <td style="font-size: 14px; height: 17px;" width="110"><strong>##ticket.id##</strong></td>
 </tr>
 <tr style="border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;">
-<td style="height: 17px;" width="53"><strong>Status</strong>: </td>
+<td style="height: 17px;" width="53"><strong>Status</strong>:</td>
 <td style="height: 17px;" width="117">##ticket.status##</td>
 </tr>
 </tbody>
@@ -52,23 +52,24 @@ Instruções de uso:
 <tbody>
 <tr>
 <td style="background-color: #9fd6ed; background-image: url('https://raw.githubusercontent.com/glpi-project/glpi/9.5/bugfixes/pics/timeline/information.png'); background-repeat: no-repeat; background-position: right; border: 1px solid #f4f4f4; border-collapse: collapse;" colspan="2" width="620">
-<p style="padding: 5px 5px 5px;"><strong>Solução</strong>: <br />##ticket.solution.description##</p>
+<p style="padding: 5px 5px 5px;"><strong>Solução</strong>: <br />
+<p>##ticket.solution.description##</p>
 </td>
 </tr>
 <tr style="border: 1px solid #f4f4f4; border-collapse: collapse;">
-<td><strong>##lang.ticket.solvedate## :</strong> ##ticket.solvedate##</td>
-<td align="right"><a style="text-decoration: none; color: #000; padding: 10px 10px; font-weight: bold; text-align: center; cursor: pointer; display: inline-block; background-color: #9fd6ed!important;" href="##ticket.urlapprove##"> Aprovar solução &gt;&gt;</a></td>
+<td><strong>##lang.ticket.solvedate##: </strong> ##ticket.solvedate##<br />##lang.ticket.autoclosewarning##</td>
+<td align="right"><a style="text-decoration: none; color: #000; padding: 10px 10px; font-weight: bold; text-align: center; cursor: pointer; display: inline-block; background-color: #9fd6ed!important;" href="##ticket.urlapprove##"> Aprovar solução: ##ticket.urlapprove##</a></td>
 </tr>
 </tbody>
 </table>
-<br />##lang.ticket.autoclosewarning## ##ENDIFticket.storestatus## ##FOREACHfollowups##
+<br />##ENDIFticket.storestatus## ##FOREACHfollowups##
 <table style="background-color: #e0e0e0; background-image: url('https://raw.githubusercontent.com/glpi-project/glpi/9.5/bugfixes/pics/timeline/followup.png'); background-repeat: no-repeat; background-position: right; border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;" width="100%" cellpadding="0">
 <tbody>
 <tr>
 <td colspan="2">
 <p style="padding: 5px 5px 5px;"><strong>Acompanhamento</strong>: <br />
 [##followup.author##] em ##followup.date##<br />
-##followup.description##</p>
+<p>##followup.description##</p>
 </td>
 </tr>
 </tbody>
@@ -80,7 +81,7 @@ Instruções de uso:
 <td colspan="4" bgcolor="">
 <p style="padding: 5px 5px 5px;"><strong>Tarefa</strong>:<br />
 [##task.author##] em ##task.date## <br />
-##task.description##</p>
+<p>##task.description##</p>
 </td>
 </tr>
 </tbody>
@@ -90,7 +91,8 @@ Instruções de uso:
 <tbody>
 <tr>
 <td style="background-color: #ccffcc;" width="620">
-<p style="padding: 5px 5px 5px;"><strong>Solicitação</strong>: ##ticket.title## <br />##ticket.content##</p>
+<p style="padding: 5px 5px 5px;"><strong>Solicitação</strong>: ##ticket.title## <br />
+<p>##ticket.content##</p>
 </td>
 </tr>
 </tbody>
