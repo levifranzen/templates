@@ -1,7 +1,6 @@
 <!-- TEMPLATE RESPONSIVO para o GLPI por Cristiano Guilherme - www.tecresolve.com.br V 1.0 - 08-09-2016 
 Compatível com app Android Gmail e demais aplicativos de leitura de emails (Outlook, Thunderbird..)
 Instruções de uso:
-- Substitua os caminhos "http://urldoglpi/" pela URL de instalação de seu GLPI.
 - Altere as palavras inseridas manualmente pelas variáveis ##lang. oficiais do sistema se necessário. Indicado apenas para mais de um idioma.
 - Compartilhe o código com as referências.
 -->
@@ -37,7 +36,7 @@ Instruções de uso:
 <table style="background-color: #efefef; border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px; height: 34px; width: 100%;" width="100%" cellpadding="0">
 <tbody>
 <tr style="border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;">
-<td style="height: 34px;" rowspan="2" width="448"><img src="http://urldoglpi/logo.png" alt="logomarca" width="190" height="68" /></td>
+<td style="height: 34px;" rowspan="2" width="448"><img src="https://raw.githubusercontent.com/glpi-project/glpi/9.5/bugfixes/pics/logos/logo-GLPI-100-black.png" alt="logomarca" width="190" height="68" /></td>
 <td style="height: 17px;" width="53"><strong>N°: </strong></td>
 <td style="font-size: 14px; height: 17px;" width="110"><strong>##ticket.id##</strong></td>
 </tr>
@@ -51,7 +50,7 @@ Instruções de uso:
 <table style="border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;" width="100%" cellpadding="0">
 <tbody>
 <tr>
-<td style="background-color: #9fd6ed; background-image: url('https://raw.githubusercontent.com/glpi-project/glpi/9.5/bugfixes/pics/timeline/information.png'); background-repeat: no-repeat; background-position: right; border: 1px solid #f4f4f4; border-collapse: collapse;" colspan="2" width="620">
+<td style="background-color: #9fd6ed; background-image: url('https://raw.githubusercontent.com/glpi-project/glpi/master/pics/timeline/information.png'); background-repeat: no-repeat; background-position: right; border: 1px solid #f4f4f4; border-collapse: collapse;" colspan="2" width="620">
 <p style="padding: 5px 5px 5px;"><strong>Solução</strong>: <br />
 <p>##ticket.solution.description##</p>
 </td>
@@ -63,7 +62,7 @@ Instruções de uso:
 </tbody>
 </table>
 <br />##ENDIFticket.storestatus## ##FOREACHfollowups##
-<table style="background-color: #e0e0e0; background-image: url('https://raw.githubusercontent.com/glpi-project/glpi/9.5/bugfixes/pics/timeline/followup.png'); background-repeat: no-repeat; background-position: right; border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;" width="100%" cellpadding="0">
+<table style="background-color: #e0e0e0; background-image: url('https://raw.githubusercontent.com/glpi-project/glpi/master/pics/timeline/followup.png'); background-repeat: no-repeat; background-position: right; border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;" width="100%" cellpadding="0">
 <tbody>
 <tr>
 <td colspan="2">
@@ -75,7 +74,7 @@ Instruções de uso:
 </tbody>
 </table>
 <br />##ENDFOREACHfollowups## ##FOREACHtasks##
-<table style="background-color: #fffbea; background-image: url('https://raw.githubusercontent.com/glpi-project/glpi/9.5/bugfixes/pics/timeline/task.png'); background-repeat: no-repeat; background-position: right; border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;" width="100%" cellpadding="0">
+<table style="background-color: #fffbea; background-image: url('https://raw.githubusercontent.com/glpi-project/glpi/master/pics/timeline/task.png'); background-repeat: no-repeat; background-position: right; border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;" width="100%" cellpadding="0">
 <tbody>
 <tr>
 <td colspan="4" bgcolor="">
