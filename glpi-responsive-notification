@@ -37,7 +37,7 @@ Instruções de uso:
 <table style="background-color: #efefef; border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px; height: 34px; width: 100%;" width="100%" cellpadding="0">
 <tbody>
 <tr style="border: 1px solid #f4f4f4; border-collapse: collapse; font-size: 12px;">
-<td style="height: 34px;" rowspan="2" width="448"><img src="http://midias.grupofw.com.br/images/logo.png" alt="logomarca" width="190" height="68" /></td>
+<td style="height: 34px;" rowspan="2" width="448"><img src="http://urldoglpi/logo.png" alt="logomarca" width="190" height="68" /></td>
 <td style="height: 17px;" width="53"><strong>N°: </strong></td>
 <td style="font-size: 14px; height: 17px;" width="110"><strong>##ticket.id##</strong></td>
 </tr>
