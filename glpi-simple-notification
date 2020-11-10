@@ -1,18 +1,21 @@
 <p><strong>Ação</strong>: ##ticket.action## | <strong>Chamado</strong>: ##ticket.id## | <strong>Status</strong>: ##ticket.status## </p>
 <hr />
-<p>##IFticket.storestatus=5## Solução: ##ticket.solution.description####lang.ticket.solvedate## : ##ticket.solvedate## Aprovar solução &gt; ##ticket.urlapprove##</p>
+<p>##IFticket.storestatus=5## Solução: ##ticket.solution.description## <br />
+##lang.ticket.solvedate##: ##ticket.solvedate## <br />
+Aprovar solução &gt; ##ticket.urlapprove##</p>
 <hr />
-<p>##lang.ticket.autoclosewarning## ##ENDIFticket.storestatus## ##FOREACHfollowups## 
+##lang.ticket.autoclosewarning## ##ENDIFticket.storestatus## ##FOREACHfollowups## 
 [##followup.author##] em ##followup.date## <br />
-##followup.description##<br />
+<p>##followup.description##<br />
 <hr />
 <p>##ENDFOREACHfollowups##</p>
 <p>##FOREACHtasks## [##task.author##] em ##task.date##<br />
 ##task.description##<br />
 ##lang.task.time## :##task.time##<br />
 <hr />
-<p>##ENDFOREACHtasks##</p>
-<p>Solicitação: ##ticket.content##</p>
+<p>##ENDFOREACHtasks##
+<p>Solicitação: <br />
+<p>##ticket.content##</p>
 <hr />
 <p>Informações: <br />Solicitado por: ##ticket.authors## <br />
 Data de Abertura: ##ticket.creationdate## <br />
